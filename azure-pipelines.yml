@@ -2,15 +2,12 @@ trigger:
  - main
 
 pool:
-
    vmImage: 'ubuntu-latest'
    name: Default
    demands: SpecialSoftware
 
 steps: 
-- task: GoTool@0
-  inputs:
-    version: '1.13.5'
+
 - task: Go@0
   inputs:
     command: 'get'
