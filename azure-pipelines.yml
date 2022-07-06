@@ -8,7 +8,7 @@ pool:
    demands: SpecialSoftware
 
 steps: 
-
+- task: GoTool@0
 - task: Go@0
   inputs:
     command: 'get'
