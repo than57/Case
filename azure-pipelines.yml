@@ -8,11 +8,9 @@ pool:
 
 steps: 
 
-- task: Go@0
+- task: GoTool@0
   inputs:
-    command: 'get'
-    arguments: '-d'
-    workingDirectory: '$(System.DefaultWorkingDirectory)'
+    version: '1.13.5'
 - task: Go@0
   inputs:
     command: 'build'
