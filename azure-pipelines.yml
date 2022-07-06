@@ -19,7 +19,7 @@ steps:
 
 - task: GoTool@0
   inputs:
-    version: '1.15'
+    version: '1.18.3'
 
 
 - task: Go@0
