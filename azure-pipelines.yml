@@ -3,7 +3,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  
+  name: Default
+  demands: SpecialSoftware
 
 steps:
 - task: CopyFiles@2
