@@ -26,4 +26,5 @@ steps:
   inputs:
     command: 'build'
     workingDirectory: '$(Build.ArtifactStagingDirectory)/main'
+    
 
